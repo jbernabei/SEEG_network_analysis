@@ -45,7 +45,7 @@ from Echobase.Pipelines.ecog_network import *
 
 np.random.seed(sum(map(ord, "aesthetics")))
 
-with open('../data/DATA.json') as json_data_file:
+with open('../DATA_SEEG_VR.json') as json_data_file:
     data = json.load(json_data_file)
 
 warnings.filterwarnings('ignore')

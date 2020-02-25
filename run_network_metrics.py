@@ -43,11 +43,11 @@ if __name__ == '__main__':
     # Check if all connectivity adjacency matrices have been computed
     if(len(glob.glob('%s/%s/*multiband*'%(os.path.expanduser(data['COMP_DIR']),patient_id))) != count_conn):
         # Compute multi band connectivity and store adjacency matricies
-        # blah
-        # pass
         compute_multiband_connectivity(patient_id, epoch_length)
 
-    # Get synchronizability
+    # Check if all connectivity adjacency matrices have been computed
+    if(len(glob.glob('%s/%s/*sync*'%(os.path.expanduser(data['COMP_DIR']),patient_id))) != count_conn):
+        # Compute multi band connectivity and store adjacency matricies
         vr_sync(patient_id, data=data)
 
 

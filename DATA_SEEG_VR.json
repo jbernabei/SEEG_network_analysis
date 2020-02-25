@@ -1,0 +1,1959 @@
+{
+  "DATA_DIR":"/gdrive/public/USERS/johnbe/SEEG/data",
+  "COMP_DIR":"/gdrive/public/USERS/johnbe/SEEG/results",
+  "PATIENTS":
+  {
+    "HUP060":
+    {
+      "Outcome": "3.1",
+      "Sex":"?",
+      "AgeOnset":"?",
+      "AgeSurgery":"?",
+      "SeizureOnset":"?",
+      "Lesion Status":"?",
+      "Pathology":"?",
+      "Resection Type":"?",
+      "GridCoverageOfResection":"N/A",
+      "Events":{
+        "Ictal":
+        {
+          "2":
+          {
+            "FILE":"HUP060-short-ictal-block-2.mat",
+            "SeizureType":"CPS+GTC",
+            "EMU_Report_Event_Number":"2",
+            "SeizureEEC":303859.91,
+            "SeizureUEO":303859.91,
+            "SeizureEnd":304057.75,
+            "SEIZURE_ONSET_ELECTRODES":[""],
+            "SeizurePhenotype":"A"
+          },
+          "3":
+          {
+            "FILE":"HUP060-short-ictal-block-3.mat",
+            "SeizureType":"CPS+GTC",
+            "EMU_Report_Event_Number":"3",
+            "SeizureEEC":384507.6,
+            "SeizureUEO":384509.33,
+            "SeizureEnd":384648.91,
+            "SEIZURE_ONSET_ELECTRODES":[""],
+            "SeizurePhenotype":"A"
+          },
+          "4": {
+            "FILE": "HUP060-short-ictal-block-4.mat",
+            "SeizureType": "??",
+            "EMU_Report_Event_Number": "4",
+            "SeizureEEC": 282259,
+            "SeizureUEO": 282259,
+            "SeizureEnd": 285859,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          }
+        }
+      },
+      "ELECTRODE_COORDINATES":"??",
+      "ELECTRODE_LABELS":"/gdrive/public/USERS/johnbe/SEEG/data/HUP060/HUP060_electrode_labels.csv",
+      "MANUAL_RESECTED_ELECTRODES":["RPFa1","RPFa2","RPFa3","RPFb1","RPFb2","RPFb3","RPFc1","RPFc2","RPFc3"],
+      "IGNORE_ELECTRODES":["EKG1","EKG2","RA1","RA4","C3","C4","CZ","F3","F4","F7","F8","FP1","FP2","FZ","O1","O2","P3","P4","PZ","T3","T4","T5","T6"]
+      },
+    "HUP112":
+    {
+      "Outcome": "",
+      "Sex":"",
+      "AgeOnset":"",
+      "AgeSurgery":"",
+      "SeizureOnset":"",
+      "Lesion Status":"",
+      "Pathology":"???",
+      "Resection Type":"",
+      "GridCoverageOfResection":"??",
+      "Events":{
+        "Ictal":
+        {
+          "1":
+          {
+            "FILE":"HUP112-short-ictal-block-1.mat",
+            "SeizureType":"SPS",
+            "EMU_Report_Event_Number":"1",
+            "SeizureEEC":31175.33,
+            "SeizureUEO":31175.55,
+            "SeizureEnd":31190.08,
+            "SeizurePhenotype":"A",
+            "SEIZURE_ONSET_ELECTRODES":[""]
+          },
+          "2":
+          {
+            "FILE":"HUP112-short-ictal-block-2.mat",
+            "SeizureType":"SPS",
+            "EMU_Report_Event_Number":"2",
+            "SeizureEEC":40261.04,
+            "SeizureUEO":40261.04,
+            "SeizureEnd":40274.93,
+            "SeizurePhenotype":"A",
+            "SEIZURE_ONSET_ELECTRODES":[""]
+          },
+	        "3":
+          {
+            "FILE":"HUP112-short-ictal-block-3.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"3",
+            "SeizureEEC":58759.72,
+            "SeizureUEO":58759.72,
+            "SeizureEnd":58777.24,
+            "SeizurePhenotype":"A",
+            "SEIZURE_ONSET_ELECTRODES":[""]
+          },
+	        "5":
+          {
+            "FILE":"HUP112-short-ictal-block-5.mat",
+            "SeizureType":"SPS or CPS",
+            "EMU_Report_Event_Number":"6",
+            "SeizureEEC":119242.9,
+            "SeizureUEO":119253.93,
+            "SeizureEnd":119281.51,
+            "SeizurePhenotype":"B",
+            "SEIZURE_ONSET_ELECTRODES":[""]
+          },
+	        "6":
+          {
+            "FILE":"HUP112-short-ictal-block-6.mat",
+            "SeizureType":"SPS or CPS",
+            "EMU_Report_Event_Number":"6",
+            "SeizureEEC":125061.87,
+            "SeizureUEO":125074.37,
+            "SeizureEnd":125099.2,
+            "SeizurePhenotype":"B",
+            "SEIZURE_ONSET_ELECTRODES":[""]
+          },
+	        "7":
+          {
+            "FILE":"HUP112-short-ictal-block-7.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"7",
+            "SeizureEEC":127517.31,
+            "SeizureUEO":127517.31,
+            "SeizureEnd":127538.75,
+            "SeizurePhenotype":"A",
+            "SEIZURE_ONSET_ELECTRODES":[""]
+          },
+	        "8":
+          {
+            "FILE":"HUP112-short-ictal-block-8.mat",
+            "SeizureType":"CPS",
+            "EMU_Report_Event_Number":"8",
+            "SeizureEEC":130004.67,
+            "SeizureUEO":130023.03,
+            "SeizureEnd":130064.66,
+            "SeizurePhenotype":"B",
+            "SEIZURE_ONSET_ELECTRODES":[""]
+          },
+          "21":
+          {
+            "FILE":"HUP112-short-ictal-block-21.mat",
+            "SeizureType":"CPS+GTC",
+            "EMU_Report_Event_Number":"21",
+            "SeizureEEC":378530.31,
+            "SeizureUEO":378530.31,
+            "SeizureEnd":378582.43,
+            "SeizurePhenotype":"C",
+            "SEIZURE_ONSET_ELECTRODES":[""]
+          },
+          "22":
+          {
+            "FILE":"HUP112-short-ictal-block-22.mat",
+            "SeizureType":"CPS+GTC",
+            "EMU_Report_Event_Number":"7",
+            "SeizureEEC":80359,
+            "SeizureUEO":80359,
+            "SeizureEnd":83959,
+            "SeizurePhenotype":"C",
+            "SEIZURE_ONSET_ELECTRODES":[""]
+          }
+        }
+      },
+      "RESECTION_IMAGE":"??",
+      "MANUAL_RESECTED_ELECTRODES":["??"],
+      "ELECTRODE_LABELS":"/gdrive/public/USERS/johnbe/SEEG/data/HUP112/HUP112_electrode_labels.csv",
+      "IGNORE_ELECTRODES":["EKG1","EKG2","RT11-5"]
+      },
+    "HUP116":
+    {
+      "Outcome": "1.1",
+      "Sex":"F",
+      "AgeOnset":"",
+      "AgeSurgery":"",
+      "SeizureOnset":"",
+      "Lesion Status":"Non-Lesional",
+      "Pathology":"???",
+      "Resection Type":"RTA",
+      "GridCoverageOfResection":"??",
+      "Events":{
+        "Ictal":
+        {
+          "1":
+          {
+            "FILE":"HUP116-short-ictal-block-1.mat",
+            "SeizureType":"CPS",
+            "EMU_Report_Event_Number":"5",
+            "SeizureEEC":251930,
+            "SeizureUEO":251949,
+            "SeizureEnd":252090.04,
+            "SeizurePhenotype":"A",
+            "SEIZURE_ONSET_ELECTRODES":["RA1","RA2","RH1","RH2","RH3","RH4"]
+          },
+          "2":
+          {
+            "FILE":"HUP116-short-ictal-block-2.mat",
+            "SeizureType":"CPS",
+            "EMU_Report_Event_Number":"6",
+            "SeizureEEC":309511,
+            "SeizureUEO":309511,
+            "SeizureEnd":309672.61,
+            "SeizurePhenotype":"B",
+            "SEIZURE_ONSET_ELECTRODES":["RA1","RA2","RA3","RA4","RH1","RH2","RH3"]
+          },
+          "3":
+          {
+            "FILE":"HUP116-short-ictal-block-3.mat",
+            "SeizureType":"CPS",
+            "EMU_Report_Event_Number":"7",
+            "SeizureEEC":312081,
+            "SeizureUEO":312143,
+            "SeizureEnd":312601.48,
+            "SeizurePhenotype":"C",
+            "SEIZURE_ONSET_ELECTRODES":["RC2"]
+          }
+        }
+      },
+      "ELECTRODE_COORDINATES":"??",
+      "MANUAL_RESECTED_ELECTRODES":["??"],
+      "ELECTRODE_LABELS":"/gdrive/public/USERS/lkini/aim1/results/HUP116/aim1/HUP116_T1_19991003_electrode_labels.csv",
+      "IGNORE_ELECTRODES":["EKG1","EKG2"]
+      },
+    "HUP117":
+    {
+      "Outcome": "??",
+      "Sex":"F",
+      "AgeOnset":"",
+      "AgeSurgery":"",
+      "SeizureOnset":"",
+      "Lesion Status":"Non-Lesional",
+      "Pathology":"???",
+      "Resection Type":"RTA",
+      "GridCoverageOfResection":"??",
+      "Events":{
+        "Ictal":
+        {
+          "3":
+          {
+            "FILE":"HUP117-short-ictal-block-3.mat",
+            "SeizureType":"CPS",
+            "EMU_Report_Event_Number":"5",
+            "SeizureEEC":265781.53,
+            "SeizureUEO":265781.53,
+            "SeizureEnd":265917.36,
+            "SeizurePhenotype":"A",
+            "SEIZURE_ONSET_ELECTRODES":[""]
+          },
+          "4":
+          {
+            "FILE":"HUP117-short-ictal-block-4.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"6",
+            "SeizureEEC":294908.15,
+            "SeizureUEO":294916.24,
+            "SeizureEnd":294982.88,
+            "SeizurePhenotype":"B",
+            "SEIZURE_ONSET_ELECTRODES":[""]
+          },
+          "5":
+          {
+            "FILE":"HUP117-short-ictal-block-5.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"5",
+            "SeizureEEC":302955.49,
+            "SeizureUEO":302974.48,
+            "SeizureEnd":303008.12,
+            "SeizurePhenotype":"B",
+            "SEIZURE_ONSET_ELECTRODES":[""]
+          }
+        }
+      },
+      "ELECTRODE_COORDINATES":"??",
+      "MANUAL_RESECTED_ELECTRODES":["??"],
+      "ELECTRODE_LABELS":"/gdrive/public/USERS/johnbe/SEEG/data/HUP117/HUP117_electrode_labels.csv",
+      "IGNORE_ELECTRODES":["EKG1","EKG2"]
+      },
+    "HUP130":
+    {
+      "Outcome": "1.1",
+      "Sex":"?",
+      "AgeOnset":"?",
+      "AgeSurgery":"?",
+      "SeizureOnset":"?",
+      "Lesion Status":"?",
+      "Pathology":"?",
+      "Resection Type":"?",
+      "GridCoverageOfResection":"N/A",
+      "Events":{
+        "Ictal":
+        {
+          "1":
+          {
+            "FILE":"HUP130-short-ictal-block-1.mat",
+            "SeizureType":"CPS",
+            "EMU_Report_Event_Number":"1",
+            "SeizureEEC":60655.51,
+            "SeizureUEO":60661.48,
+            "SeizureEnd":60722,
+            "SEIZURE_ONSET_ELECTRODES":["LG1","LG2"],
+            "SeizurePhenotype":"A"
+          },
+          "2":
+          {
+            "FILE":"HUP130-short-ictal-block-2.mat",
+            "SeizureType":"SPS",
+            "EMU_Report_Event_Number":"2",
+            "SeizureEEC":208009,
+            "SeizureUEO":208009,
+            "SeizureEnd":208031.67,
+            "SEIZURE_ONSET_ELECTRODES":["LG1","LG2"],
+            "SeizurePhenotype":"B"
+          },
+          "3":
+          {
+            "FILE":"HUP130-short-ictal-block-3.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"3",
+            "SeizureEEC":364357.4,
+            "SeizureUEO":364357.4,
+            "SeizureEnd":364387.4,
+            "SEIZURE_ONSET_ELECTRODES":["LG1","LG2"],
+            "SeizurePhenotype":"A"
+          },
+          "4":
+          {
+            "FILE":"HUP130-short-ictal-block-4.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"4",
+            "SeizureEEC":432883.31,
+            "SeizureUEO":432888.69,
+            "SeizureEnd":432958.31,
+            "SEIZURE_ONSET_ELECTRODES":["LG1","LG2"],
+            "SeizurePhenotype":"?"
+          }
+        }
+      },
+      "ELECTRODE_COORDINATES":"??",
+      "MANUAL_RESECTED_ELECTRODES":["??"],
+      "ELECTRODE_LABELS":"/gdrive/public/USERS/johnbe/SEEG/data/HUP130/HUP130_electrode_labels.csv",
+      "IGNORE_ELECTRODES":["EKG1","EKG2","LE7","LE8","LH5","LH6","LH7","LH8"]
+      },
+    "HUP133":
+    {
+      "Outcome": "1.1",
+      "Sex":"?",
+      "AgeOnset":"?",
+      "AgeSurgery":"?",
+      "SeizureOnset":"?",
+      "Lesion Status":"?",
+      "Pathology":"?",
+      "Resection Type":"?",
+      "GridCoverageOfResection":"N/A",
+      "Events":{
+        "Ictal":
+        {
+          "1":
+          {
+            "FILE":"HUP133-short-ictal-block-1.mat",
+            "SeizureType":"CPS",
+            "EMU_Report_Event_Number":"1",
+            "SeizureEEC":206732.99,
+            "SeizureUEO":206739.38,
+            "SeizureEnd":206815.96,
+            "SEIZURE_ONSET_ELECTRODES":["LA1","LA2","LB2"],
+            "SeizurePhenotype":"A"
+          },
+          "7":
+          {
+            "FILE":"HUP133-short-ictal-block-7.mat",
+            "SeizureType":"CPS",
+            "EMU_Report_Event_Number":"7",
+            "SeizureEEC":268428.99,
+            "SeizureUEO":267432.82,
+            "SeizureEnd":268490.36,
+            "SEIZURE_ONSET_ELECTRODES":["LA1","LA2","LA3"],
+            "SeizurePhenotype":"A"
+          },
+          "8":
+          {
+            "FILE":"HUP133-short-ictal-block-8.mat",
+            "SeizureType":"CPS",
+            "EMU_Report_Event_Number":"8",
+            "SeizureEEC":282270.55,
+            "SeizureUEO":282270.55,
+            "SeizureEnd":282334.35,
+            "SEIZURE_ONSET_ELECTRODES":["LA1","LA2","LA3"],
+            "SeizurePhenotype":"A"
+          },
+          "9":
+          {
+            "FILE":"HUP133-short-ictal-block-9.mat",
+            "SeizureType":"CPS",
+            "EMU_Report_Event_Number":"9",
+            "SeizureEEC":313502.4,
+            "SeizureUEO":313503.76,
+            "SeizureEnd":313571.59,
+            "SEIZURE_ONSET_ELECTRODES":["LA1","LA2","LA3","LB1","LB2","LB3"],
+            "SeizurePhenotype":"A"
+          },
+	       "10":
+          {
+            "FILE":"HUP133-short-ictal-block-10.mat",
+            "SeizureType":"CPS",
+            "EMU_Report_Event_Number":"10",
+            "SeizureEEC":318714.96,
+            "SeizureUEO":318714.96,
+            "SeizureEnd":318792.39,
+            "SEIZURE_ONSET_ELECTRODES":["LA1","LA2","LA3"],
+            "SeizurePhenotype":"A"
+          }
+        }
+      },
+      "ELECTRODE_COORDINATES":"??",
+      "ELECTRODE_LABELS":"/gdrive/public/USERS/johnbe/SEEG/data/HUP133/HUP133_electrode_labels.csv",
+      "MANUAL_RESECTED_ELECTRODES":["LA1","LA2","LA3","LA4","LA5","LB1","LB2","LB3"],
+      "IGNORE_ELECTRODES":["EKG1","EKG2","LA1"]
+      },
+    "HUP135":
+    {
+      "Outcome": "2.1",
+      "Sex":"?",
+      "AgeOnset":"?",
+      "AgeSurgery":"?",
+      "SeizureOnset":"?",
+      "Lesion Status":"?",
+      "Pathology":"?",
+      "Resection Type":"?",
+      "GridCoverageOfResection":"N/A",
+      "Events":{
+        "Ictal":
+        {
+          "1":
+          {
+            "FILE":"HUP135-short-ictal-block-1.mat",
+            "SeizureType":"CPS",
+            "EMU_Report_Event_Number":"1",
+            "SeizureEEC":109730.56,
+            "SeizureUEO":109730.56,
+            "SeizureEnd":109790.56,
+            "SEIZURE_ONSET_ELECTRODES":["RB1","RB2"],
+            "SeizurePhenotype":"A"
+          },
+          "2":
+          {
+            "FILE":"HUP135-short-ictal-block-2.mat",
+            "SeizureType":"CPS",
+            "EMU_Report_Event_Number":"2",
+            "SeizureEEC":130903,
+            "SeizureUEO":130903,
+            "SeizureEnd":131248.22,
+            "SEIZURE_ONSET_ELECTRODES":["RB1","RB2"],
+            "SeizurePhenotype":"A"
+          }
+        }
+      },
+      "ELECTRODE_COORDINATES":"??",
+      "ELECTRODE_LABELS":"/gdrive/public/USERS/johnbe/SEEG/data/HUP135/HUP135_electrode_labels.csv",
+      "MANUAL_RESECTED_ELECTRODES":["RA1","RB1","RB2","RC1"],
+      "IGNORE_ELECTRODES":["EKG1","EKG2"]
+      },
+    "HUP138":
+    {
+      "Outcome": "2.1",
+      "Sex":"?",
+      "AgeOnset":"?",
+      "AgeSurgery":"?",
+      "SeizureOnset":"?",
+      "Lesion Status":"?",
+      "Pathology":"?",
+      "Resection Type":"?",
+      "GridCoverageOfResection":"N/A",
+      "Events":{
+        "Ictal":
+        {
+          "1":
+          {
+            "FILE":"HUP138-short-ictal-block-1.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"1",
+            "SeizureEEC":248526,
+            "SeizureUEO":248531,
+            "SeizureEnd":248619.14,
+            "SEIZURE_ONSET_ELECTRODES":["LA02","LA03","LA04"],
+            "SeizurePhenotype":"A"
+          },
+          "2":
+          {
+            "FILE":"HUP138-short-ictal-block-2.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"2",
+            "SeizureEEC":339008,
+            "SeizureUEO":339017,
+            "SeizureEnd":339168.44,
+            "SEIZURE_ONSET_ELECTRODES":["LA02","LA03","LA04"],
+            "SeizurePhenotype":"A"
+          },
+          "3":
+          {
+            "FILE":"HUP138-short-ictal-block-3.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"3",
+            "SeizureEEC":416023,
+            "SeizureUEO":416031,
+            "SeizureEnd":416112.89,
+            "SEIZURE_ONSET_ELECTRODES":["LA02","LA03","LA04"],
+            "SeizurePhenotype":"A"
+          },
+          "4":
+          {
+            "FILE":"HUP138-short-ictal-block-4.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"4",
+            "SeizureEEC":429449,
+            "SeizureUEO":429505,
+            "SeizureEnd":429598.35,
+            "SEIZURE_ONSET_ELECTRODES":["LA02","LA03","LA04"],
+            "SeizurePhenotype":"A"
+          },
+	        "5":
+          {
+            "FILE":"HUP138-short-ictal-block-5.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"5",
+            "SeizureEEC":458505,
+            "SeizureUEO":458526,
+            "SeizureEnd":458615.82,
+            "SEIZURE_ONSET_ELECTRODES":["LA02","LA03","LA04"],
+            "SeizurePhenotype":"A"
+          }
+        }
+      },
+      "ELECTRODE_COORDINATES":"??",
+      "ELECTRODE_LABELS":"/gdrive/public/USERS/johnbe/SEEG/data/HUP138/HUP138_electrode_labels.csv",
+      "MANUAL_RESECTED_ELECTRODES":["RA01","RA02","RA03","RA04","RA05","RB01","RB02"],
+      "IGNORE_ELECTRODES":["EKG1","EKG2","CZ","C3","C4","F3","F7","FZ","F4","F8","LF04","RB07","RC03","RC05","RE07","RF01","RF03","RF11","RF12","RG03"]
+      },
+    "HUP139":
+    {
+      "Outcome": "?",
+      "Sex":"?",
+      "AgeOnset":"?",
+      "AgeSurgery":"?",
+      "SeizureOnset":"?",
+      "Lesion Status":"?",
+      "Pathology":"?",
+      "Resection Type":"?",
+      "GridCoverageOfResection":"N/A",
+      "Events":{
+        "Ictal":
+        {
+          "4":
+          {
+            "FILE":"HUP139-short-ictal-block-4.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"4",
+            "SeizureEEC":147570.86,
+            "SeizureUEO":147570.86,
+            "SeizureEnd":147580.87,
+            "SEIZURE_ONSET_ELECTRODES":[],
+            "SeizurePhenotype":"A"
+          },
+          "11":
+          {
+            "FILE":"HUP139-short-ictal-block-11.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"11",
+            "SeizureEEC":237432.06,
+            "SeizureUEO":237432.06,
+            "SeizureEnd":237466.39,
+            "SEIZURE_ONSET_ELECTRODES":[],
+            "SeizurePhenotype":"B"
+          },
+          "12":
+          {
+            "FILE":"HUP139-short-ictal-block-12.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"12",
+            "SeizureEEC":237577.9,
+            "SeizureUEO":237577.9,
+            "SeizureEnd":237585.34,
+            "SEIZURE_ONSET_ELECTRODES":[],
+            "SeizurePhenotype":"A"
+          },
+          "13":
+          {
+            "FILE":"HUP139-short-ictal-block-13.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"13",
+            "SeizureEEC":237675.8,
+            "SeizureUEO":237677.14,
+            "SeizureEnd":237686.01,
+            "SEIZURE_ONSET_ELECTRODES":[],
+            "SeizurePhenotype":"A"
+          },
+	        "15":
+          {
+            "FILE":"HUP139-short-ictal-block-15.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"15",
+            "SeizureEEC":586463.39,
+            "SeizureUEO":586466.36,
+            "SeizureEnd":586575.87,
+            "SEIZURE_ONSET_ELECTRODES":[],
+            "SeizurePhenotype":"C"
+          }
+        }
+      },
+      "ELECTRODE_COORDINATES":"??",
+      "ELECTRODE_LABELS":"/gdrive/public/USERS/johnbe/SEEG/data/HUP139/HUP139_electrode_labels.csv",
+      "MANUAL_RESECTED_ELECTRODES":["LG3","LF5","LC1","LG1","LG4","LF6","LE1","LF3","LG2","LG5","LF4"],
+      "IGNORE_ELECTRODES":["EKG1","EKG2","LA7","LB12","LC8","LD8","LH3","LH11"]
+      },
+    "HUP140":
+    {
+      "Outcome": "1.2",
+      "Sex":"?",
+      "AgeOnset":"?",
+      "AgeSurgery":"?",
+      "SeizureOnset":"?",
+      "Lesion Status":"?",
+      "Pathology":"?",
+      "Resection Type":"?",
+      "GridCoverageOfResection":"N/A",
+      "Events":{
+        "Ictal":
+        {
+          "1":
+          {
+            "FILE":"HUP140-short-ictal-block-1.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"1",
+            "SeizureEEC":66162.34,
+            "SeizureUEO":66170.96,
+            "SeizureEnd":66192.47,
+            "SEIZURE_ONSET_ELECTRODES":["LA01","LA02","LB01","LB02"],
+            "SeizurePhenotype":"A"
+          },
+          "2":
+          {
+            "FILE":"HUP140-short-ictal-block-3.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"3",
+            "SeizureEEC":82714.24,
+            "SeizureUEO":82712.24,
+            "SeizureEnd":82743.87,
+            "SEIZURE_ONSET_ELECTRODES":["LA01","LA02","LB01","LB02"],
+            "SeizurePhenotype":"A"
+          }
+        }
+      },
+      "ELECTRODE_COORDINATES":"??",
+      "ELECTRODE_LABELS":"/gdrive/public/USERS/johnbe/SEEG/data/HUP140/HUP140_electrode_labels.csv",
+      "MANUAL_RESECTED_ELECTRODES":["??"],
+      "IGNORE_ELECTRODES":["EKG1","EKG2","LE09"]
+      },
+    "HUP141":
+    {
+      "Outcome": "3.1",
+      "Sex":"?",
+      "AgeOnset":"?",
+      "AgeSurgery":"?",
+      "SeizureOnset":"?",
+      "Lesion Status":"?",
+      "Pathology":"?",
+      "Resection Type":"?",
+      "GridCoverageOfResection":"N/A",
+      "Events":{
+        "Ictal":
+        {
+          "1":
+          {
+            "FILE":"HUP141-short-ictal-block-1.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"1",
+            "SeizureEEC":10640.25,
+            "SeizureUEO":10640.25,
+            "SeizureEnd":10666.12,
+            "SEIZURE_ONSET_ELECTRODES":[],
+            "SeizurePhenotype":"A"
+          },
+          "2":
+          {
+            "FILE":"HUP141-short-ictal-block-2.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"2",
+            "SeizureEEC":16207,
+            "SeizureUEO":16207,
+            "SeizureEnd":16236.4,
+            "SEIZURE_ONSET_ELECTRODES":[],
+            "SeizurePhenotype":"A"
+          },
+          "3":
+          {
+            "FILE":"HUP141-short-ictal-block-3.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"3",
+            "SeizureEEC":20250.39,
+            "SeizureUEO":20250.39,
+            "SeizureEnd":20278.44,
+            "SEIZURE_ONSET_ELECTRODES":[],
+            "SeizurePhenotype":"A"
+          },
+          "4":
+          {
+            "FILE":"HUP141-short-ictal-block-4.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"4",
+            "SeizureEEC":23524.39,
+            "SeizureUEO":23524.39,
+            "SeizureEnd":23550.22,
+            "SEIZURE_ONSET_ELECTRODES":[],
+            "SeizurePhenotype":"B"
+          },
+	        "5":
+          {
+            "FILE":"HUP141-short-ictal-block-5.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"5",
+            "SeizureEEC":24896.68,
+            "SeizureUEO":24896.68,
+            "SeizureEnd":25007.71,
+            "SEIZURE_ONSET_ELECTRODES":[],
+            "SeizurePhenotype":"C"
+          },
+	        "6":
+          {
+            "FILE":"HUP141-short-ictal-block-6.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"6",
+            "SeizureEEC":27574.44,
+            "SeizureUEO":27575.81,
+            "SeizureEnd":27721.08,
+            "SEIZURE_ONSET_ELECTRODES":[],
+            "SeizurePhenotype":"C"
+          },
+          "7":
+          {
+            "FILE":"HUP141-short-ictal-block-7.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"7",
+            "SeizureEEC":45022.2,
+            "SeizureUEO":45022.2,
+            "SeizureEnd":45049.08,
+            "SEIZURE_ONSET_ELECTRODES":[],
+            "SeizurePhenotype":"C"
+          },
+          "8":
+          {
+            "FILE":"HUP141-short-ictal-block-8.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"8",
+            "SeizureEEC":49446.09,
+            "SeizureUEO":49446.09,
+            "SeizureEnd":49474.86,
+            "SEIZURE_ONSET_ELECTRODES":[],
+            "SeizurePhenotype":"A"
+          },
+          "9":
+          {
+            "FILE":"HUP141-short-ictal-block-9.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"9",
+            "SeizureEEC":49973.81,
+            "SeizureUEO":49973.81,
+            "SeizureEnd":50013.38,
+            "SEIZURE_ONSET_ELECTRODES":[],
+            "SeizurePhenotype":"B"
+          },
+	        "10":
+          {
+            "FILE":"HUP141-short-ictal-block-10.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"10",
+            "SeizureEEC":54200.64,
+            "SeizureUEO":54201.86,
+            "SeizureEnd":54229.29,
+            "SEIZURE_ONSET_ELECTRODES":[],
+            "SeizurePhenotype":"B"
+          },
+          "11":
+          {
+            "FILE":"HUP141-short-ictal-block-11.mat",
+            "SeizureType":"??",
+            "EMU_Report_Event_Number":"11",
+            "SeizureEEC":58897.49,
+            "SeizureUEO":58897.49,
+            "SeizureEnd":59010.03,
+	          "SEIZURE_ONSET_ELECTRODES":[],
+            "SeizurePhenotype":"B"
+          }
+        }
+      },
+      "ELECTRODE_COORDINATES":"??",
+      "ELECTRODE_LABELS":"/gdrive/public/USERS/johnbe/SEEG/data/HUP141/HUP141_electrode_labels.csv",
+      "MANUAL_RESECTED_ELECTRODES":["RA01","RA02","RA03","RA04","RB01","RB02","RB03","RB04","RC01","RC02","RC03","RC04","RC05"],
+      "IGNORE_ELECTRODES":["EKG1","EKG2"]
+      },
+    "HUP148": 
+    {
+      "Outcome": "2.2",
+      "Sex": "?",
+      "AgeOnset": "?",
+      "AgeSurgery": "?",
+      "SeizureOnset": "?",
+      "Lesion Status": "?",
+      "Pathology": "???",
+      "Resection Type": "?",
+      "GridCoverageOfResection": "??",
+      "Events": {
+        "Ictal": {
+          "1": {
+            "FILE": "HUP148-short-ictal-block-1.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 274990,
+            "SeizureUEO": 275001,
+            "SeizureEnd": 275007.85,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": ["LD2","LD3","LD4","LD5","LD6"]
+          },
+	  	  "2": 
+	  	  {
+            "FILE": "HUP148-short-ictal-block-2.mat",
+            "SeizureType": "?",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 362275.07,
+            "SeizureUEO": 362275.07,
+            "SeizureEnd": 362353.68,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": ["LC1","LC2","LC3","LC4"]
+          },
+	  	  "3": 
+	  	  {
+            "FILE": "HUP148-short-ictal-block-3.mat",
+            "SeizureType": "?",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 368090.19,
+            "SeizureUEO": 368090.19,
+            "SeizureEnd": 368111.55,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": ["RB1","RB2","RB3","RB4"]
+          }
+        }
+      },
+      "RESECTION_IMAGE": "?",
+      "ELECTRODE_LABELS": "/gdrive/public/USERS/johnbe/SEEG/data/HUP148/HUP148_electrode_labels.csv",
+      "MANUAL_RESECTED_ELECTRODES":["LD1","LD2","LD3","LD4","LD5","LD6","LD7","LB3","LC2","LC3","LC4"],
+      "IGNORE_ELECTRODES": ["EKG1","EKG2","LB11","LB12","RB10","RB11","RB12"]
+      },
+    "HUP150": 
+    {
+      "Outcome": "1.1",
+      "Sex": "?",
+      "AgeOnset": "?",
+      "AgeSurgery": "?",
+      "SeizureOnset": "?",
+      "Lesion Status": "?",
+      "Pathology": "???",
+      "Resection Type": "?",
+      "GridCoverageOfResection": "??",
+      "Events": {
+        "Ictal": {
+          "1": {
+            "FILE": "HUP150-short-ictal-block-1.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 14226,
+            "SeizureUEO": 14226,
+            "SeizureEnd": 14259.95,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": ["RC4","RC5","RC6","RC7","RG2","RG3","RG4","RG5"]
+          },
+          "2": 
+          {
+            "FILE": "HUP150-short-ictal-block-2.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 39543.92,
+            "SeizureUEO": 39543.92,
+            "SeizureEnd": 39582.45,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": ["RC4","RC5","RC6","RC7","RG2","RG3","RG4","RG5"]
+          },
+          "3": 
+          {
+            "FILE": "HUP150-short-ictal-block-3.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 40677,
+            "SeizureUEO": 40677,
+            "SeizureEnd": 40711.02,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": ["RG2","RG3","RG4","RG5"]
+          },
+          "4": 
+          {
+            "FILE": "HUP150-short-ictal-block-4.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 45781.96,
+            "SeizureUEO": 45795.87,
+            "SeizureEnd": 45834.3,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": ["RG2","RG3","RG4","RG5"]
+          },
+          "5": 
+          {
+            "FILE": "HUP150-short-ictal-block-5.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 154953.9,
+            "SeizureUEO": 154953.9,
+            "SeizureEnd": 154987.2,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": ["RG2","RG3","RG4","RG5"]
+          }
+        }
+      },
+      "ELECTRODE_COORDINATES": "?",
+      "ELECTRODE_LABELS": "/gdrive/public/USERS/johnbe/SEEG/data/HUP150/HUP150_electrode_labels.csv",
+      "MANUAL_RESECTED_ELECTRODES":["RC3"],
+      "IGNORE_ELECTRODES": ["EKG1","EKG2"]
+      },
+    "HUP151": 
+    {
+      "Outcome": "?",
+      "Sex": "?",
+      "AgeOnset": "?",
+      "AgeSurgery": "?",
+      "SeizureOnset": "?",
+      "Lesion Status": "?",
+      "Pathology": "???",
+      "Resection Type": "?",
+      "GridCoverageOfResection": "??",
+      "Events": {
+        "Ictal": {
+          "1": {
+            "FILE": "HUP151-short-ictal-block-1.mat",
+            "SeizureType": "FBTC",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 494776.94,
+            "SeizureUEO": 494778.95,
+            "SeizureEnd": 494850.13,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": [""]
+          },
+          "2": 
+          {
+            "FILE": "HUP151-short-ictal-block-2.mat",
+            "SeizureType": "FIAS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 530009.5,
+            "SeizureUEO": 530009.5,
+            "SeizureEnd": 530084.17,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": [""]
+          }
+        }
+      },
+      "ELECTRODE_COORDINATES": "?",
+      "ELECTRODE_LABELS": "/gdrive/public/USERS/johnbe/SEEG/data/HUP151/HUP151_electrode_labels.csv",
+      "MANUAL_RESECTED_ELECTRODES":["LF1","RF1","RF2","LE1","RE1","RE2","RE3"],
+      "IGNORE_ELECTRODES": ["EKG1","EKG2","LB8","LB9","LB10","RF8","RF9","RD9","RD10"]
+      },
+    "HUP157": 
+    {
+      "Outcome": "??",
+      "Sex": "?",
+      "AgeOnset": "?",
+      "AgeSurgery": "?",
+      "SeizureOnset": "?",
+      "Lesion Status": "?",
+      "Pathology": "???",
+      "Resection Type": "?",
+      "GridCoverageOfResection": "??",
+      "Events": {
+        "Ictal": 
+        {
+          "1": 
+          {
+            "FILE": "HUP157-short-ictal-block-1.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 313650,
+            "SeizureUEO": 313650,
+            "SeizureEnd": 313716,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },          
+          "2": 
+          {
+            "FILE": "HUP157-short-ictal-block-2.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 351054,
+            "SeizureUEO": 351054,
+            "SeizureEnd": 351119,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "3": 
+          {
+            "FILE": "HUP157-short-ictal-block-3.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 351054,
+            "SeizureUEO": 351054,
+            "SeizureEnd": 351119,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "4": 
+          {
+            "FILE": "HUP157-short-ictal-block-4.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "7",
+            "SeizureEEC": 369735,
+            "SeizureUEO": 369735,
+            "SeizureEnd": 369818,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          }
+        }
+      },
+      "RESECTION_IMAGE": "?",
+      "ELECTRODE_LABELS": "/gdrive/public/USERS/johnbe/SEEG/data/HUP157/HUP157_electrode_labels.csv",
+      "MANUAL_RESECTED_ELECTRODES":[""],
+      "IGNORE_ELECTRODES": ["EKG1","EKG2","LD1","LE10","LE11","RB10","RB11"]
+      },  
+    "HUP158": 
+    {
+      "Outcome": "3.1",
+      "Sex": "?",
+      "AgeOnset": "?",
+      "AgeSurgery": "?",
+      "SeizureOnset": "?",
+      "Lesion Status": "?",
+      "Pathology": "???",
+      "Resection Type": "?",
+      "GridCoverageOfResection": "??",
+      "Events": {
+        "Ictal": 
+        {
+          "2": 
+          {
+            "FILE": "HUP158-short-ictal-block-2.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 313139,
+            "SeizureUEO": 313139,
+            "SeizureEnd": 313261.89,
+            "SEIZURE_ONSET_ELECTRODES": ["RL1","RL2","RL3","RL4"],
+            "SeizurePhenotype": "A"
+          }
+        }
+      },
+      "RESECTION_IMAGE": "?",
+      "ELECTRODE_LABELS": "/gdrive/public/USERS/johnbe/SEEG/data/HUP158/HUP158_electrode_labels.csv",
+      "MANUAL_RESECTED_ELECTRODES":["RB1","RB2","RB3","RF1","RF2","RF3"],
+      "IGNORE_ELECTRODES": ["EKG1","EKG2","LB5","LI10","LI11","LI12","LJ8","LJ10","LJ11","LJ12","LK10","LK11","LK12","LK9","LM9","LM10","LM11","LM12","LN7","LN9","LN10","LN11","LN12","RG12","RH10","RH12","RI9","RI11","RI12","RP6"]
+      },
+    "HUP163": 
+    {
+      "Outcome": "??",
+      "Sex": "?",
+      "AgeOnset": "?",
+      "AgeSurgery": "?",
+      "SeizureOnset": "?",
+      "Lesion Status": "?",
+      "Pathology": "???",
+      "Resection Type": "?",
+      "GridCoverageOfResection": "??",
+      "Events": {
+        "Ictal": 
+        {
+          "1": 
+          {
+            "FILE": "HUP163-short-ictal-block-1.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 585827,
+            "SeizureUEO": 585827,
+            "SeizureEnd": 585917,
+            "SEIZURE_ONSET_ELECTRODES": ["LB1","LB2"],
+            "SeizurePhenotype": "A"
+          },          
+          "2": 
+          {
+            "FILE": "HUP163-short-ictal-block-2.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 813988,
+            "SeizureUEO": 813988,
+            "SeizureEnd": 814107,
+            "SEIZURE_ONSET_ELECTRODES": ["LB1","LB2","LB3"],
+            "SeizurePhenotype": "A"
+          },
+          "3": 
+          {
+            "FILE": "HUP163-short-ictal-block-3.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "7",
+            "SeizureEEC": 848848,
+            "SeizureUEO": 848848,
+            "SeizureEnd": 848917,
+            "SEIZURE_ONSET_ELECTRODES": ["LB1","LB2","LB3","LA1","LA2","LA3"],
+            "SeizurePhenotype": "A"
+          }
+        }
+      },
+      "RESECTION_IMAGE": "?",
+      "ELECTRODE_LABELS": "/gdrive/public/USERS/johnbe/SEEG/data/HUP163/HUP163_electrode_labels.csv",
+      "MANUAL_RESECTED_ELECTRODES":["LA1","LA2","LA3","LA4","LA5","LB1","LB2","LB3"],
+      "IGNORE_ELECTRODES": ["EKG1","EKG2"]
+      },
+    "HUP164": 
+    {
+      "Outcome": "?",
+      "Sex": "?",
+      "AgeOnset": "?",
+      "AgeSurgery": "?",
+      "SeizureOnset": "?",
+      "Lesion Status": "?",
+      "Pathology": "???",
+      "Resection Type": "?",
+      "GridCoverageOfResection": "??",
+      "Events": {
+        "Ictal": 
+        {
+          "1": 
+          {
+            "FILE": "HUP164-short-ictal-block-1.mat",
+            "SeizureType": "FAS",
+            "EMU_Report_Event_Number": "1",
+            "SeizureEEC": 313650,
+            "SeizureUEO": 313650,
+            "SeizureEnd": 313716,
+            "SEIZURE_ONSET_ELECTRODES": ["LA1","LA2","LA3","LB1","LB2","LB3","LC1","LC2","LC3"],
+            "SeizurePhenotype": "A"
+          },          
+          "2": 
+          {
+            "FILE": "HUP164-short-ictal-block-2.mat",
+            "SeizureType": "FAS",
+            "EMU_Report_Event_Number": "2",
+            "SeizureEEC": 351054,
+            "SeizureUEO": 351054,
+            "SeizureEnd": 351119,
+            "SEIZURE_ONSET_ELECTRODES": ["LA1","LA2","LA3","LB1","LB2","LB3","LC1","LC2","LC3"],
+            "SeizurePhenotype": "A"
+          },
+          "3": 
+          {
+            "FILE": "HUP164-short-ictal-block-3.mat",
+            "SeizureType": "FAS",
+            "EMU_Report_Event_Number": "3",
+            "SeizureEEC": 369735,
+            "SeizureUEO": 369735,
+            "SeizureEnd": 369818,
+            "SEIZURE_ONSET_ELECTRODES": ["LA1","LA2","LA3","LB1","LB2","LB3","LC1","LC2","LC3"],
+            "SeizurePhenotype": "A"
+          }
+        }
+      },
+      "ELECTRODE_COORDINATES": "?",
+      "ELECTRODE_LABELS": "/gdrive/public/USERS/johnbe/SEEG/data/HUP164/HUP164_electrode_labels.csv",
+      "MANUAL_RESECTED_ELECTRODES":["LC1","LC2","LC3"],
+      "IGNORE_ELECTRODES": ["EKG1","EKG2"]
+      },
+    "HUP170":
+    {
+      "Outcome": "?",
+      "Sex": "?",
+      "AgeOnset": "?",
+      "AgeSurgery": "?",
+      "SeizureOnset": "?",
+      "Lesion Status": "?",
+      "Pathology": "???",
+      "Resection Type": "?",
+      "GridCoverageOfResection": "??",
+      "Events": {
+        "Ictal": 
+        {
+          "1": 
+          {
+            "FILE": "HUP170-short-ictal-block-1.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 25252.87,
+            "SeizureUEO": 25254.66,
+            "SeizureEnd": 25281.03,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },          
+          "2": 
+          {
+            "FILE": "HUP170-short-ictal-block-2.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 42720.52,
+            "SeizureUEO": 42720.52,
+            "SeizureEnd": 42748.64,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "3": 
+          {
+            "FILE": "HUP170-short-ictal-block-3.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 47441.76,
+            "SeizureUEO": 47449.82,
+            "SeizureEnd": 47503.53,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },          
+          "4": 
+          {
+            "FILE": "HUP170-short-ictal-block-4.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 68011.87,
+            "SeizureUEO": 68016.97,
+            "SeizureEnd": 68044.2,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "5": 
+          {
+            "FILE": "HUP170-short-ictal-block-5.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 94355.31,
+            "SeizureUEO": 94357.59,
+            "SeizureEnd": 94381.86,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },          
+          "6": 
+          {
+            "FILE": "HUP170-short-ictal-block-6.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 120539.93,
+            "SeizureUEO": 120558.16,
+            "SeizureEnd": 120584.9,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "7": 
+          {
+            "FILE": "HUP170-short-ictal-block-7.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 136437.41,
+            "SeizureUEO": 136439.67,
+            "SeizureEnd": 136515.64,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },          
+          "8": 
+          {
+            "FILE": "HUP170-short-ictal-block-8.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 150295.5,
+            "SeizureUEO": 150299.87,
+            "SeizureEnd": 150380.3,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "9": 
+          {
+            "FILE": "HUP170-short-ictal-block-9.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 165745.08,
+            "SeizureUEO": 165752.82,
+            "SeizureEnd": 165774.38,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },          
+          "10": 
+          {
+            "FILE": "HUP170-short-ictal-block-10.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 208337.89,
+            "SeizureUEO": 208344.11,
+            "SeizureEnd": 208362.73,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "11": 
+          {
+            "FILE": "HUP170-short-ictal-block-11.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 221028.72,
+            "SeizureUEO": 221033.88,
+            "SeizureEnd": 221056.18,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "12": 
+          {
+            "FILE": "HUP170-short-ictal-block-12.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 232686.07,
+            "SeizureUEO": 232692,
+            "SeizureEnd": 232716.13,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },          
+          "13": 
+          {
+            "FILE": "HUP170-short-ictal-block-13.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 239861.25,
+            "SeizureUEO": 239876.32,
+            "SeizureEnd": 239904,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "14": 
+          {
+            "FILE": "HUP170-short-ictal-block-14.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 267473.75,
+            "SeizureUEO": 267479.17,
+            "SeizureEnd": 267501.94,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },       
+          "15": 
+          {
+            "FILE": "HUP170-short-ictal-block-16.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 304438.16,
+            "SeizureUEO": 304449.46,
+            "SeizureEnd": 304473.77,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "16": 
+          {
+            "FILE": "HUP170-short-ictal-block-17.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 310838.06,
+            "SeizureUEO": 310841.96,
+            "SeizureEnd": 310865.24,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "17": 
+          {
+            "FILE": "HUP170-short-ictal-block-18.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 322324.29,
+            "SeizureUEO": 322326.87,
+            "SeizureEnd": 322352.06,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },          
+          "18": 
+          {
+            "FILE": "HUP170-short-ictal-block-19.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 328405.73,
+            "SeizureUEO": 328410.1,
+            "SeizureEnd": 328432.51,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          }, 
+          "20": 
+          {
+            "FILE": "HUP170-short-ictal-block-20.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 385268.22,
+            "SeizureUEO": 385277.45,
+            "SeizureEnd": 385300.7,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "21": 
+          {
+            "FILE": "HUP170-short-ictal-block-21.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 397656.52,
+            "SeizureUEO": 397656.52,
+            "SeizureEnd": 397687.64,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },          
+          "22": 
+          {
+            "FILE": "HUP170-short-ictal-block-22.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 420251.99,
+            "SeizureUEO": 420251.99,
+            "SeizureEnd": 420279.39,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "23":
+          {
+            "FILE": "HUP170-short-ictal-block-23.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 431646.16,
+            "SeizureUEO": 431647.97,
+            "SeizureEnd": 431669.69,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "24": 
+          {
+            "FILE": "HUP170-short-ictal-block-24.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "7",
+            "SeizureEEC": 451558.66,
+            "SeizureUEO": 451558.99,
+            "SeizureEnd": 451583.95,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          }
+        }
+      },
+      "RESECTION_IMAGE": "?",
+      "ELECTRODE_LABELS": "/gdrive/public/USERS/johnbe/SEEG/data/HUP170/HUP170_electrode_labels.csv",
+      "IGNORE_ELECTRODES": ["EKG1","EKG2","LI7","LI8","LI9","LI10","LI11"]
+      },
+    "HUP171": 
+    {
+      "Outcome": "?",
+      "Sex": "?",
+      "AgeOnset": "?",
+      "AgeSurgery": "?",
+      "SeizureOnset": "?",
+      "Lesion Status": "?",
+      "Pathology": "???",
+      "Resection Type": "?",
+      "GridCoverageOfResection": "??",
+      "Events": {
+        "Ictal": {
+          "1": {
+            "FILE": "HUP196-auditory-task-clip.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 29094,
+            "SeizureUEO": 29094,
+            "SeizureEnd": 29568,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": [
+              ""
+            ]
+          }
+        }
+      },
+      "RESECTION_IMAGE": "?",
+      "ELECTRODE_LABELS": "",
+      "MANUAL_RESECTED_ELECTRODES":["LG2","LG3","LG4"],
+      "IGNORE_ELECTRODES": [""]
+      },
+    "HUP172": 
+    {
+      "Outcome": "?",
+      "Sex": "?",
+      "AgeOnset": "?",
+      "AgeSurgery": "?",
+      "SeizureOnset": "?",
+      "Lesion Status": "?",
+      "Pathology": "???",
+      "Resection Type": "?",
+      "GridCoverageOfResection": "??",
+      "Events": {
+        "Ictal": 
+        {
+          "1": 
+          {
+            "FILE": "HUP172-short-ictal-block-1.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 402695.68,
+            "SeizureUEO": 402695.68,
+            "SeizureEnd": 402756.61,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },          
+          "2": 
+          {
+            "FILE": "HUP172-short-ictal-block-2.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "6",
+            "SeizureEEC": 408697.93,
+            "SeizureUEO": 408697.93,
+            "SeizureEnd": 408758.39,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          }
+        }
+      },
+      "RESECTION_IMAGE": "?",
+      "ELECTRODE_LABELS": "/gdrive/public/USERS/johnbe/SEEG/data/HUP172/HUP172_electrode_labels.csv",
+      "MANUAL_RESECTED_ELECTRODES":["LH4","LH5","LH6"],
+      "IGNORE_ELECTRODES": ["EKG1","EKG2","RE08","RE09","RE10","LM11","RD06","RD08"]
+      },
+    "HUP173": 
+    {
+      "Outcome": "?",
+      "Sex": "?",
+      "AgeOnset": "?",
+      "AgeSurgery": "?",
+      "SeizureOnset": "?",
+      "Lesion Status": "?",
+      "Pathology": "?",
+      "Resection Type": "?",
+      "GridCoverageOfResection": "N/A",
+      "Events": {
+        "Ictal": {
+          "1": {
+            "FILE": "HUP173-short-ictal-block-1.mat",
+            "SeizureType": "??",
+            "EMU_Report_Event_Number": "1",
+            "SeizureEEC": 293375.39,
+            "SeizureUEO": 293375.39,
+            "SeizureEnd": 293421.52,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "2": {
+            "FILE": "HUP173-short-ictal-block-2.mat",
+            "SeizureType": "??",
+            "EMU_Report_Event_Number": "2",
+            "SeizureEEC": 339325.29,
+            "SeizureUEO": 339325.29,
+            "SeizureEnd": 339359.32,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "3": {
+            "FILE": "HUP173-short-ictal-block-3.mat",
+            "SeizureType": "??",
+            "EMU_Report_Event_Number": "3",
+            "SeizureEEC": 384338.82,
+            "SeizureUEO": 384338.82,
+            "SeizureEnd": 384363.77,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "4": {
+            "FILE": "HUP173-short-ictal-block-4.mat",
+            "SeizureType": "??",
+            "EMU_Report_Event_Number": "4",
+            "SeizureEEC": 329293.07,
+            "SeizureUEO": 329293.07,
+            "SeizureEnd": 329347.98,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "5": {
+            "FILE": "HUP173-short-ictal-block-5.mat",
+            "SeizureType": "??",
+            "EMU_Report_Event_Number": "5",
+            "SeizureEEC": 381516.48,
+            "SeizureUEO": 381516.48,
+            "SeizureEnd": 381609.81,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "6": {
+            "FILE": "HUP173-inter-ictal-block-1.mat",
+            "SeizureType": "??",
+            "EMU_Report_Event_Number": "1",
+            "SeizureEEC": 271775.39,
+            "SeizureUEO": 271775.39,
+            "SeizureEnd": 271821.52,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "7": {
+            "FILE": "HUP173-inter-ictal-block-2.mat",
+            "SeizureType": "??",
+            "EMU_Report_Event_Number": "2",
+            "SeizureEEC": 317725.29,
+            "SeizureUEO": 317725.29,
+            "SeizureEnd": 317759.32,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "8": {
+            "FILE": "HUP173-inter-ictal-block-3.mat",
+            "SeizureType": "??",
+            "EMU_Report_Event_Number": "3",
+            "SeizureEEC": 362738.82,
+            "SeizureUEO": 362738.82,
+            "SeizureEnd": 362763.77,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "9": {
+            "FILE": "HUP173-inter-ictal-block-4.mat",
+            "SeizureType": "??",
+            "EMU_Report_Event_Number": "4",
+            "SeizureEEC": 307693.07,
+            "SeizureUEO": 307693.07,
+            "SeizureEnd": 307747.98,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "10": {
+            "FILE": "HUP173-inter-ictal-block-5.mat",
+            "SeizureType": "??",
+            "EMU_Report_Event_Number": "5",
+            "SeizureEEC": 359916.48,
+            "SeizureUEO": 359916.48,
+            "SeizureEnd": 360009.81,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "11": {
+            "FILE": "HUP173-post-ictal-block-1.mat",
+            "SeizureType": "??",
+            "EMU_Report_Event_Number": "1",
+            "SeizureEEC": 293375.39,
+            "SeizureUEO": 293375.39,
+            "SeizureEnd": 293675.39,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "12": {
+            "FILE": "HUP173-post-ictal-block-2.mat",
+            "SeizureType": "??",
+            "EMU_Report_Event_Number": "2",
+            "SeizureEEC": 339325.29,
+            "SeizureUEO": 339325.29,
+            "SeizureEnd": 339625.29,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "13": {
+            "FILE": "HUP173-post-ictal-block-3.mat",
+            "SeizureType": "??",
+            "EMU_Report_Event_Number": "3",
+            "SeizureEEC": 384338.82,
+            "SeizureUEO": 384338.82,
+            "SeizureEnd": 384638.82,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "14": {
+            "FILE": "HUP173-post-ictal-block-4.mat",
+            "SeizureType": "??",
+            "EMU_Report_Event_Number": "4",
+            "SeizureEEC": 329293.07,
+            "SeizureUEO": 329293.07,
+            "SeizureEnd": 329593.07,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          },
+          "15": {
+            "FILE": "HUP173-post-ictal-block-5.mat",
+            "SeizureType": "??",
+            "EMU_Report_Event_Number": "5",
+            "SeizureEEC": 381516.48,
+            "SeizureUEO": 381516.48,
+            "SeizureEnd": 381816.48,
+            "SEIZURE_ONSET_ELECTRODES": [""],
+            "SeizurePhenotype": "A"
+          }
+        }
+      },
+      "RESECTION_IMAGE": "??",
+      "ELECTRODE_LABELS": "/gdrive/public/USERS/johnbe/SEEG/data/HUP173/HUP173_electrode_labels.csv",
+      "IGNORE_ELECTRODES": ["EKG1","EKG2","RG08","RC08","RE07","RE08"]
+      },
+    "HUP177": 
+    {
+      "Outcome": "?",
+      "Sex": "?",
+      "AgeOnset": "?",
+      "AgeSurgery": "?",
+      "SeizureOnset": "?",
+      "Lesion Status": "?",
+      "Pathology": "???",
+      "Resection Type": "?",
+      "GridCoverageOfResection": "??",
+      "Events": {
+        "Ictal": {
+          "1": {
+            "FILE": "HUP196-auditory-task-clip.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 29094,
+            "SeizureUEO": 29094,
+            "SeizureEnd": 29568,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": [""]
+          }
+        }
+      },
+      "RESECTION_IMAGE": "?",
+      "ELECTRODE_LABELS": "",
+      "MANUAL_RESECTED_ELECTRODES":["RA6","RA7","RA8","RA9","RA10","RB1","RB2","RB3","RB4","RB5","RB1","RH2","RH3","RH4","RH5","RH6","RH7","RH8","RH9"],
+      "IGNORE_ELECTRODES": [""]
+      },
+    "HUP179": 
+    {
+      "Outcome": "?",
+      "Sex": "?",
+      "AgeOnset": "?",
+      "AgeSurgery": "?",
+      "SeizureOnset": "?",
+      "Lesion Status": "?",
+      "Pathology": "???",
+      "Resection Type": "?",
+      "GridCoverageOfResection": "??",
+      "Events": {
+        "Ictal": {
+          "1": {
+            "FILE": "HUP196-auditory-task-clip.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 29094,
+            "SeizureUEO": 29094,
+            "SeizureEnd": 29568,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": [""]
+          }
+        }
+      },
+      "RESECTION_IMAGE": "?",
+      "ELECTRODE_LABELS": "",
+      "MANUAL_RESECTED_ELECTRODES":["LE1","LE2","LE4","LE5","LC1","LC2","LC3","LC4","LC5","LD2","LD3","LD4","LD5","LG1","LG2","LG3","LG4","LJ7","LJ8","LJ9","LJ10","LJ11","LJ12","LK12"],
+      "IGNORE_ELECTRODES": [""]
+      },
+    "HUP180": 
+    {
+      "Outcome": "?",
+      "Sex": "?",
+      "AgeOnset": "?",
+      "AgeSurgery": "?",
+      "SeizureOnset": "?",
+      "Lesion Status": "?",
+      "Pathology": "???",
+      "Resection Type": "?",
+      "GridCoverageOfResection": "??",
+      "Events": {
+        "Ictal": {
+          "1": {
+            "FILE": "HUP196-auditory-task-clip.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 29094,
+            "SeizureUEO": 29094,
+            "SeizureEnd": 29568,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": [""]
+          }
+        }
+      },
+      "RESECTION_IMAGE": "?",
+      "ELECTRODE_LABELS": "",
+      "MANUAL_RESECTED_ELECTRODES":["LD1","LD2","LF1","LF2","LF3"],
+      "IGNORE_ELECTRODES": [""]
+      },
+    "HUP181": 
+    {
+      "Outcome": "?",
+      "Sex": "?",
+      "AgeOnset": "?",
+      "AgeSurgery": "?",
+      "SeizureOnset": "?",
+      "Lesion Status": "?",
+      "Pathology": "???",
+      "Resection Type": "?",
+      "GridCoverageOfResection": "??",
+      "Events": {
+        "Ictal": {
+          "1": {
+            "FILE": "HUP196-auditory-task-clip.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 29094,
+            "SeizureUEO": 29094,
+            "SeizureEnd": 29568,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": [""]
+          }
+        }
+      },
+      "RESECTION_IMAGE": "?",
+      "ELECTRODE_LABELS": "",
+      "MANUAL_RESECTED_ELECTRODES":["LA3","LA4","LB2","LB3","LB4","LB5"],
+      "IGNORE_ELECTRODES": [""]
+      },
+    "HUP184": 
+    {
+      "Outcome": "?",
+      "Sex": "?",
+      "AgeOnset": "?",
+      "AgeSurgery": "?",
+      "SeizureOnset": "?",
+      "Lesion Status": "?",
+      "Pathology": "???",
+      "Resection Type": "?",
+      "GridCoverageOfResection": "??",
+      "Events": {
+        "Ictal": {
+          "1": {
+            "FILE": "HUP184-short-ictal-block-1.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 248917.79,
+            "SeizureUEO": 248917.79,
+            "SeizureEnd": 248930.41,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": [""]
+          },
+          "2": {
+            "FILE": "HUP184-short-ictal-block-2.mat",
+            "SeizureType": "?",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 250989.7,
+            "SeizureUEO": 250989.7,
+            "SeizureEnd": 250993.38,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": [""]
+          },
+          "3": {
+            "FILE": "HUP184-short-ictal-block-3.mat",
+            "SeizureType": "?",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 266035.13,
+            "SeizureUEO": 266035.13,
+            "SeizureEnd": 266101.03,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": [""]
+          },
+          "4": {
+            "FILE": "HUP184-inter-ictal-block-1.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 227205.28,
+            "SeizureUEO": 227205.28,
+            "SeizureEnd": 227217.9,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": [""]
+          },
+          "5": {
+            "FILE": "HUP184-inter-ictal-block-2.mat",
+            "SeizureType": "?",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 228936.73,
+            "SeizureUEO": 228936.73,
+            "SeizureEnd": 228940.41,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": [""]
+          },
+          "6": {
+            "FILE": "HUP184-inter-ictal-block-3.mat",
+            "SeizureType": "?",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 244435.13,
+            "SeizureUEO": 244435.13,
+            "SeizureEnd": 244501.03,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": [""]
+          },
+          "7": {
+            "FILE": "HUP184-post-ictal-block-1.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 248917.79,
+            "SeizureUEO": 248917.79,
+            "SeizureEnd": 249217.79,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": [""]
+          },
+          "8": {
+            "FILE": "HUP184-post-ictal-block-2.mat",
+            "SeizureType": "?",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 250989.7,
+            "SeizureUEO": 250989.7,
+            "SeizureEnd": 251289.7,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": [""]
+          },
+          "9": {
+            "FILE": "HUP184-post-ictal-block-3.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 266035.13,
+            "SeizureUEO": 266035.13,
+            "SeizureEnd": 266335.13,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": [""]
+          }
+        }
+      },
+      "RESECTION_IMAGE": "?",
+      "ELECTRODE_LABELS": "/gdrive/public/USERS/johnbe/SEEG/data/HUP184/HUP184_electrode_labels.csv",
+      "IGNORE_ELECTRODES": ["EKG1", "EKG2", "LG08"]
+      },
+    "HUP190": 
+    {
+      "Outcome": "?",
+      "Sex": "?",
+      "AgeOnset": "?",
+      "AgeSurgery": "?",
+      "SeizureOnset": "?",
+      "Lesion Status": "?",
+      "Pathology": "???",
+      "Resection Type": "?",
+      "GridCoverageOfResection": "??",
+      "Events": {
+        "Ictal": {
+          "1": {
+            "FILE": "HUP191-auditory-task-clip.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 29094,
+            "SeizureUEO": 29094,
+            "SeizureEnd": 29568,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": [
+              ""
+            ]
+          }
+        }
+      },
+      "RESECTION_IMAGE": "?",
+      "ELECTRODE_LABELS": "",
+      "MANUAL_RESECTED_ELECTRODES":["LA1","LA2","LA3","LA4","LA5","LA6","LA7","LA8","LA9","LB1","LB2","LB3","LB4","LB5","LB6","LB7","LB8","LB9","LB10","LC1","LC2","LC3","LC4","LH3","LH4"],
+      "IGNORE_ELECTRODES": [""]
+    }
+  }
+}
