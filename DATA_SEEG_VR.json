@@ -6,15 +6,16 @@
     "HUP060":
     {
       "Outcome": "3.1",
-      "Sex":"?",
+      "Sex":"F",
       "AgeOnset":"?",
-      "AgeSurgery":"?",
-      "SeizureOnset":"?",
-      "Lesion Status":"?",
-      "Pathology":"?",
-      "Resection Type":"?",
-      "GridCoverageOfResection":"N/A",
-      "Events":{
+      "AgeSurgery":"42",
+      "Location":"Right frontal",
+      "Lesion Status":"Surgical margin",
+      "Previous Surgery":"Resection",
+      "Pathology":"N/A",
+      "Surgery Type":"Ablation",
+      "Events":
+      {
         "Ictal":
         {
           "2":
@@ -39,16 +40,16 @@
             "SEIZURE_ONSET_ELECTRODES":[""],
             "SeizurePhenotype":"A"
           },
-          "4": {
-            "FILE": "HUP060-short-ictal-block-4.mat",
-            "SeizureType": "??",
-            "EMU_Report_Event_Number": "4",
-            "SeizureEEC": 282259,
-            "SeizureUEO": 282259,
-            "SeizureEnd": 285859,
-            "SEIZURE_ONSET_ELECTRODES": [""],
-            "SeizurePhenotype": "A"
-          }
+        },
+        "Interictal":
+        {
+          "1":
+            {	
+            "FILE":"HUP060-interictal-block-1.mat",
+            "IIstart":265779,
+            "IIstop":287379
+            }
+         }
         }
       },
       "ELECTRODE_COORDINATES":"??",
@@ -58,15 +59,15 @@
       },
     "HUP112":
     {
-      "Outcome": "",
-      "Sex":"",
-      "AgeOnset":"",
-      "AgeSurgery":"",
-      "SeizureOnset":"",
-      "Lesion Status":"",
-      "Pathology":"???",
-      "Resection Type":"",
-      "GridCoverageOfResection":"??",
+      "Outcome": "4.1",
+      "Sex":"F",
+      "AgeOnset":"0 - perinatal bleed",
+      "AgeSurgery":"21",
+      "Location":"Right frontal",
+      "Lesion Status":"Surgical margin",
+      "Previous Surgery":"Resection",
+      "Pathology":"N/A",
+      "Surgery Type":"Ablation",
       "Events":{
         "Ictal":
         {
@@ -169,10 +170,19 @@
             "SeizurePhenotype":"C",
             "SEIZURE_ONSET_ELECTRODES":[""]
           }
-        }
+        },
+        "Interictal":
+        {
+          "1":
+            {	
+            "FILE":"HUP112-interictal-block-1.mat",
+            "IIstart":151622,
+            "IIstop":173222
+            }
+         }
       },
       "RESECTION_IMAGE":"??",
-      "MANUAL_RESECTED_ELECTRODES":["??"],
+      "MANUAL_RESECTED_ELECTRODES":["RPF71","RPF92","RAF21","RAF13","RPF91","RAF14","RPF83","RAF23","RAF12","RPF84","RPF72","RPF82","RAF22"],
       "ELECTRODE_LABELS":"/gdrive/public/USERS/johnbe/SEEG/data/HUP112/HUP112_electrode_labels.csv",
       "IGNORE_ELECTRODES":["EKG1","EKG2","RT11-5"]
       },
@@ -182,11 +192,11 @@
       "Sex":"F",
       "AgeOnset":"",
       "AgeSurgery":"",
-      "SeizureOnset":"",
-      "Lesion Status":"Non-Lesional",
+      "Location":"Right amygdala & hipposcampus",
+      "Lesion Status":"??",
+      "Previous Surgery":"??",
       "Pathology":"???",
-      "Resection Type":"RTA",
-      "GridCoverageOfResection":"??",
+      "Resection Type":"Ablation",
       "Events":{
         "Ictal":
         {
@@ -223,10 +233,19 @@
             "SeizurePhenotype":"C",
             "SEIZURE_ONSET_ELECTRODES":["RC2"]
           }
-        }
+        },
+        "Interictal":
+        {
+          "1":
+            { 
+            "FILE":"HUP116-interictal-block-1.mat",
+            "IIstart":333646,
+            "IIstop":255246
+            }
+         }
       },
       "ELECTRODE_COORDINATES":"??",
-      "MANUAL_RESECTED_ELECTRODES":["??"],
+      "MANUAL_RESECTED_ELECTRODES":["RA3","RA4","RH2","RH3","RH4"],
       "ELECTRODE_LABELS":"/gdrive/public/USERS/lkini/aim1/results/HUP116/aim1/HUP116_T1_19991003_electrode_labels.csv",
       "IGNORE_ELECTRODES":["EKG1","EKG2"]
       },
@@ -277,7 +296,16 @@
             "SeizurePhenotype":"B",
             "SEIZURE_ONSET_ELECTRODES":[""]
           }
-        }
+        },        
+        "Interictal":
+        {
+          "1":
+            { 
+            "FILE":"HUP117-interictal-block-1.mat",
+            "IIstart":322492,
+            "IIstop":344092
+            }
+         }
       },
       "ELECTRODE_COORDINATES":"??",
       "MANUAL_RESECTED_ELECTRODES":["??"],
@@ -342,10 +370,19 @@
             "SEIZURE_ONSET_ELECTRODES":["LG1","LG2"],
             "SeizurePhenotype":"?"
           }
-        }
+        },        
+        "Interictal":
+        {
+          "1":
+            { 
+            "FILE":"HUP130-interictal-block-1.mat",
+            "IIstart":82225,
+            "IIstop":103825
+            }
+         }
       },
       "ELECTRODE_COORDINATES":"??",
-      "MANUAL_RESECTED_ELECTRODES":["??"],
+      "MANUAL_RESECTED_ELECTRODES":["LG1","LG2","LG3","LH4"],
       "ELECTRODE_LABELS":"/gdrive/public/USERS/johnbe/SEEG/data/HUP130/HUP130_electrode_labels.csv",
       "IGNORE_ELECTRODES":["EKG1","EKG2","LE7","LE8","LH5","LH6","LH7","LH8"]
       },
@@ -418,7 +455,16 @@
             "SEIZURE_ONSET_ELECTRODES":["LA1","LA2","LA3"],
             "SeizurePhenotype":"A"
           }
-        }
+        },        
+        "Interictal":
+        {
+          "1":
+            { 
+            "FILE":"HUP133-interictal-block-1.mat",
+            "IIstart":227928,
+            "IIstop":249528
+            }
+         }
       },
       "ELECTRODE_COORDINATES":"??",
       "ELECTRODE_LABELS":"/gdrive/public/USERS/johnbe/SEEG/data/HUP133/HUP133_electrode_labels.csv",
@@ -461,11 +507,20 @@
             "SEIZURE_ONSET_ELECTRODES":["RB1","RB2"],
             "SeizurePhenotype":"A"
           }
-        }
+        },        
+        "Interictal":
+        {
+          "1":
+            { 
+            "FILE":"HUP135-interictal-block-1.mat",
+            "IIstart":152503,
+            "IIstop":174103
+            }
+         }
       },
       "ELECTRODE_COORDINATES":"??",
       "ELECTRODE_LABELS":"/gdrive/public/USERS/johnbe/SEEG/data/HUP135/HUP135_electrode_labels.csv",
-      "MANUAL_RESECTED_ELECTRODES":["RA1","RB1","RB2","RC1"],
+      "MANUAL_RESECTED_ELECTRODES":["RA1","RB1","RB2","RA2"],
       "IGNORE_ELECTRODES":["EKG1","EKG2"]
       },
     "HUP138":
@@ -537,7 +592,16 @@
             "SEIZURE_ONSET_ELECTRODES":["LA02","LA03","LA04"],
             "SeizurePhenotype":"A"
           }
-        }
+        },        
+        "Interictal":
+        {
+          "1":
+            { 
+            "FILE":"HUP138-interictal-block-1.mat",
+            "IIstart":270109,
+            "IIstop":271709
+            }
+         }
       },
       "ELECTRODE_COORDINATES":"??",
       "ELECTRODE_LABELS":"/gdrive/public/USERS/johnbe/SEEG/data/HUP138/HUP138_electrode_labels.csv",
@@ -613,7 +677,16 @@
             "SEIZURE_ONSET_ELECTRODES":[],
             "SeizurePhenotype":"C"
           }
-        }
+        },        
+        "Interictal":
+        {
+          "1":
+            { 
+            "FILE":"HUP139-interictal-block-1.mat",
+            "IIstart":258934,
+            "IIstop":280534
+            }
+         }
       },
       "ELECTRODE_COORDINATES":"??",
       "ELECTRODE_LABELS":"/gdrive/public/USERS/johnbe/SEEG/data/HUP139/HUP139_electrode_labels.csv",
@@ -656,11 +729,20 @@
             "SEIZURE_ONSET_ELECTRODES":["LA01","LA02","LB01","LB02"],
             "SeizurePhenotype":"A"
           }
-        }
+        },        
+        "Interictal":
+        {
+          "1":
+            { 
+            "FILE":"HUP140-interictal-block-1.mat",
+            "IIstart":104783,
+            "IIstop":126383
+            }
+         }
       },
       "ELECTRODE_COORDINATES":"??",
       "ELECTRODE_LABELS":"/gdrive/public/USERS/johnbe/SEEG/data/HUP140/HUP140_electrode_labels.csv",
-      "MANUAL_RESECTED_ELECTRODES":["??"],
+      "MANUAL_RESECTED_ELECTRODES":["RA1","RA2","RA3","RB1","RB2","RB3","RC1"],
       "IGNORE_ELECTRODES":["EKG1","EKG2","LE09"]
       },
     "HUP141":
@@ -798,7 +880,16 @@
 	          "SEIZURE_ONSET_ELECTRODES":[],
             "SeizurePhenotype":"B"
           }
-        }
+        },        
+        "Interictal":
+        {
+          "1":
+            { 
+            "FILE":"HUP141-interictal-block-1.mat",
+            "IIstart":413200,
+            "IIstop":434800
+            }
+         }
       },
       "ELECTRODE_COORDINATES":"??",
       "ELECTRODE_LABELS":"/gdrive/public/USERS/johnbe/SEEG/data/HUP141/HUP141_electrode_labels.csv",
@@ -850,7 +941,16 @@
             "SeizurePhenotype": "A",
             "SEIZURE_ONSET_ELECTRODES": ["RB1","RB2","RB3","RB4"]
           }
-        }
+        },        
+        "Interictal":
+        {
+          "1":
+            { 
+            "FILE":"HUP148-interictal-block-1.mat",
+            "IIstart":483848,
+            "IIstop":505448
+            }
+         }
       },
       "RESECTION_IMAGE": "?",
       "ELECTRODE_LABELS": "/gdrive/public/USERS/johnbe/SEEG/data/HUP148/HUP148_electrode_labels.csv",
@@ -924,7 +1024,16 @@
             "SeizurePhenotype": "A",
             "SEIZURE_ONSET_ELECTRODES": ["RG2","RG3","RG4","RG5"]
           }
-        }
+        },        
+        "Interictal":
+        {
+          "1":
+            { 
+            "FILE":"HUP150-interictal-block-1.mat",
+            "IIstart":66200,
+            "IIstop":69800
+            }
+         }
       },
       "ELECTRODE_COORDINATES": "?",
       "ELECTRODE_LABELS": "/gdrive/public/USERS/johnbe/SEEG/data/HUP150/HUP150_electrode_labels.csv",
@@ -965,7 +1074,16 @@
             "SeizurePhenotype": "A",
             "SEIZURE_ONSET_ELECTRODES": [""]
           }
-        }
+        },        
+        "Interictal":
+        {
+          "1":
+            { 
+            "FILE":"HUP151-interictal-block-1.mat",
+            "IIstart":551758,
+            "IIstop":573358
+            }
+         }
       },
       "ELECTRODE_COORDINATES": "?",
       "ELECTRODE_LABELS": "/gdrive/public/USERS/johnbe/SEEG/data/HUP151/HUP151_electrode_labels.csv",
@@ -1030,11 +1148,20 @@
             "SEIZURE_ONSET_ELECTRODES": [""],
             "SeizurePhenotype": "A"
           }
-        }
+        },        
+        "Interictal":
+        {
+          "1":
+            { 
+            "FILE":"HUP157-interictal-block-1.mat",
+            "IIstart":"240000",
+            "IIstop":"243600"
+            }
+         }
       },
       "RESECTION_IMAGE": "?",
       "ELECTRODE_LABELS": "/gdrive/public/USERS/johnbe/SEEG/data/HUP157/HUP157_electrode_labels.csv",
-      "MANUAL_RESECTED_ELECTRODES":[""],
+      "MANUAL_RESECTED_ELECTRODES":["LA1","LA2","LA3","LB1","LB2","LB3"],
       "IGNORE_ELECTRODES": ["EKG1","EKG2","LD1","LE10","LE11","RB10","RB11"]
       },  
     "HUP158": 
@@ -1062,12 +1189,21 @@
             "SEIZURE_ONSET_ELECTRODES": ["RL1","RL2","RL3","RL4"],
             "SeizurePhenotype": "A"
           }
-        }
+        },        
+        "Interictal":
+        {
+          "1":
+            { 
+            "FILE":"HUP158-interictal-block-1.mat",
+            "IIstart":"95000",
+            "IIstop":"98600"
+            }
+         }
       },
       "RESECTION_IMAGE": "?",
       "ELECTRODE_LABELS": "/gdrive/public/USERS/johnbe/SEEG/data/HUP158/HUP158_electrode_labels.csv",
       "MANUAL_RESECTED_ELECTRODES":["RB1","RB2","RB3","RF1","RF2","RF3"],
-      "IGNORE_ELECTRODES": ["EKG1","EKG2","LB5","LI10","LI11","LI12","LJ8","LJ10","LJ11","LJ12","LK10","LK11","LK12","LK9","LM9","LM10","LM11","LM12","LN7","LN9","LN10","LN11","LN12","RG12","RH10","RH12","RI9","RI11","RI12","RP6"]
+      "IGNORE_ELECTRODES": ["EKG1","EKG2","LB5","LI10","LI11","LI12","LJ5","LJ7","LJ8","LJ9","LJ10","LJ11","LJ12","LK10","LK11","LK12","LK9","LM9","LM10","LM11","LM12","LN7","LN9","LN10","LN11","LN12","RG12","RH10","RH12","RI9","RI11","RI12","RP6"]
       },
     "HUP163": 
     {
@@ -1116,7 +1252,16 @@
             "SEIZURE_ONSET_ELECTRODES": ["LB1","LB2","LB3","LA1","LA2","LA3"],
             "SeizurePhenotype": "A"
           }
-        }
+        },        
+        "Interictal":
+        {
+          "1":
+            { 
+            "FILE":"HUP163-interictal-block-1.mat",
+            "IIstart":"308000",
+            "IIstop":"311600"
+            }
+         }
       },
       "RESECTION_IMAGE": "?",
       "ELECTRODE_LABELS": "/gdrive/public/USERS/johnbe/SEEG/data/HUP163/HUP163_electrode_labels.csv",
@@ -1170,7 +1315,16 @@
             "SEIZURE_ONSET_ELECTRODES": ["LA1","LA2","LA3","LB1","LB2","LB3","LC1","LC2","LC3"],
             "SeizurePhenotype": "A"
           }
-        }
+        },        
+        "Interictal":
+        {
+          "1":
+            { 
+            "FILE":"HUP164-interictal-block-1.mat",
+            "IIstart":"108000",
+            "IIstop":"111600"
+            }
+         }
       },
       "ELECTRODE_COORDINATES": "?",
       "ELECTRODE_LABELS": "/gdrive/public/USERS/johnbe/SEEG/data/HUP164/HUP164_electrode_labels.csv",
@@ -1444,7 +1598,16 @@
             "SEIZURE_ONSET_ELECTRODES": [""],
             "SeizurePhenotype": "A"
           }
-        }
+        },        
+        "Interictal":
+        {
+          "1":
+            { 
+            "FILE":"HUP170-interictal-block-1.mat",
+            "IIstart":"5000",
+            "IIstop":"8600"
+            }
+         }
       },
       "RESECTION_IMAGE": "?",
       "ELECTRODE_LABELS": "/gdrive/public/USERS/johnbe/SEEG/data/HUP170/HUP170_electrode_labels.csv",
@@ -1471,11 +1634,18 @@
             "SeizureUEO": 29094,
             "SeizureEnd": 29568,
             "SeizurePhenotype": "A",
-            "SEIZURE_ONSET_ELECTRODES": [
-              ""
-            ]
+            "SEIZURE_ONSET_ELECTRODES": [""]
           }
-        }
+        },        
+        "Interictal":
+        {
+          "1":
+            { 
+            "FILE":"HUP171-interictal-block-1.mat",
+            "IIstart":"108000",
+            "IIstop":"111600"
+            }
+         }
       },
       "RESECTION_IMAGE": "?",
       "ELECTRODE_LABELS": "",
@@ -1814,7 +1984,7 @@
       "MANUAL_RESECTED_ELECTRODES":["LA3","LA4","LB2","LB3","LB4","LB5"],
       "IGNORE_ELECTRODES": [""]
       },
-    "HUP184": 
+    "HUP185": 
     {
       "Outcome": "?",
       "Sex": "?",
@@ -1828,100 +1998,160 @@
       "Events": {
         "Ictal": {
           "1": {
-            "FILE": "HUP184-short-ictal-block-1.mat",
+            "FILE": "HUP196-auditory-task-clip.mat",
             "SeizureType": "CPS",
             "EMU_Report_Event_Number": "?",
-            "SeizureEEC": 248917.79,
-            "SeizureUEO": 248917.79,
-            "SeizureEnd": 248930.41,
+            "SeizureEEC": 60066.50,
+            "SeizureUEO": 60066.50,
+            "SeizureEnd": 60076.50,
             "SeizurePhenotype": "A",
-            "SEIZURE_ONSET_ELECTRODES": [""]
+            "SEIZURE_ONSET_ELECTRODES": ["LI1","LI2","LI3","LI4","LI5","LI6","LI7"]
           },
           "2": {
-            "FILE": "HUP184-short-ictal-block-2.mat",
-            "SeizureType": "?",
-            "EMU_Report_Event_Number": "?",
-            "SeizureEEC": 250989.7,
-            "SeizureUEO": 250989.7,
-            "SeizureEnd": 250993.38,
-            "SeizurePhenotype": "A",
-            "SEIZURE_ONSET_ELECTRODES": [""]
-          },
-          "3": {
-            "FILE": "HUP184-short-ictal-block-3.mat",
-            "SeizureType": "?",
-            "EMU_Report_Event_Number": "?",
-            "SeizureEEC": 266035.13,
-            "SeizureUEO": 266035.13,
-            "SeizureEnd": 266101.03,
-            "SeizurePhenotype": "A",
-            "SEIZURE_ONSET_ELECTRODES": [""]
-          },
-          "4": {
-            "FILE": "HUP184-inter-ictal-block-1.mat",
+            "FILE": "HUP196-auditory-task-clip.mat",
             "SeizureType": "CPS",
             "EMU_Report_Event_Number": "?",
-            "SeizureEEC": 227205.28,
-            "SeizureUEO": 227205.28,
-            "SeizureEnd": 227217.9,
+            "SeizureEEC": 60066.50,
+            "SeizureUEO": 60066.50,
+            "SeizureEnd": 60076.50,
             "SeizurePhenotype": "A",
-            "SEIZURE_ONSET_ELECTRODES": [""]
-          },
-          "5": {
-            "FILE": "HUP184-inter-ictal-block-2.mat",
-            "SeizureType": "?",
-            "EMU_Report_Event_Number": "?",
-            "SeizureEEC": 228936.73,
-            "SeizureUEO": 228936.73,
-            "SeizureEnd": 228940.41,
-            "SeizurePhenotype": "A",
-            "SEIZURE_ONSET_ELECTRODES": [""]
-          },
-          "6": {
-            "FILE": "HUP184-inter-ictal-block-3.mat",
-            "SeizureType": "?",
-            "EMU_Report_Event_Number": "?",
-            "SeizureEEC": 244435.13,
-            "SeizureUEO": 244435.13,
-            "SeizureEnd": 244501.03,
-            "SeizurePhenotype": "A",
-            "SEIZURE_ONSET_ELECTRODES": [""]
-          },
-          "7": {
-            "FILE": "HUP184-post-ictal-block-1.mat",
-            "SeizureType": "CPS",
-            "EMU_Report_Event_Number": "?",
-            "SeizureEEC": 248917.79,
-            "SeizureUEO": 248917.79,
-            "SeizureEnd": 249217.79,
-            "SeizurePhenotype": "A",
-            "SEIZURE_ONSET_ELECTRODES": [""]
-          },
-          "8": {
-            "FILE": "HUP184-post-ictal-block-2.mat",
-            "SeizureType": "?",
-            "EMU_Report_Event_Number": "?",
-            "SeizureEEC": 250989.7,
-            "SeizureUEO": 250989.7,
-            "SeizureEnd": 251289.7,
-            "SeizurePhenotype": "A",
-            "SEIZURE_ONSET_ELECTRODES": [""]
-          },
-          "9": {
-            "FILE": "HUP184-post-ictal-block-3.mat",
-            "SeizureType": "CPS",
-            "EMU_Report_Event_Number": "?",
-            "SeizureEEC": 266035.13,
-            "SeizureUEO": 266035.13,
-            "SeizureEnd": 266335.13,
-            "SeizurePhenotype": "A",
-            "SEIZURE_ONSET_ELECTRODES": [""]
+            "SEIZURE_ONSET_ELECTRODES": ["LI1","LI2","LI3","LI4","LI5","LI6","LI7"]
           }
         }
       },
       "RESECTION_IMAGE": "?",
-      "ELECTRODE_LABELS": "/gdrive/public/USERS/johnbe/SEEG/data/HUP184/HUP184_electrode_labels.csv",
-      "IGNORE_ELECTRODES": ["EKG1", "EKG2", "LG08"]
+      "ELECTRODE_LABELS": "",
+      "MANUAL_RESECTED_ELECTRODES":["LA1","LA2","LA3","LA4","LA5","LB1","LB2","LB3","LB4"],
+      "IGNORE_ELECTRODES": ["C3","C4","CZ","EKG1","EKG2","FZ","LA11","LA12","LF12","LOC","ROC"]
+      },
+    "HUP188": 
+    {
+      "Outcome": "?",
+      "Sex": "?",
+      "AgeOnset": "?",
+      "AgeSurgery": "?",
+      "SeizureOnset": "?",
+      "Lesion Status": "?",
+      "Pathology": "???",
+      "Resection Type": "?",
+      "GridCoverageOfResection": "??",
+      "Events": {
+        "Ictal": {
+          "1": {
+            "FILE": "HUP188-short-ictal-block-1.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 60066.50,
+            "SeizureUEO": 60066.50,
+            "SeizureEnd": 60076.50,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": ["LI1","LI2","LI3","LI4","LI5","LI6","LI7"]
+          },
+          "2": {
+            "FILE": "HUP188-short-ictal-block-2.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 145826,
+            "SeizureUEO": 145826,
+            "SeizureEnd": 145831,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": ["LL5"]
+          },
+          "3": {
+            "FILE": "HUP188-short-ictal-block-3.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 159205,
+            "SeizureUEO": 159205,
+            "SeizureEnd": 159218,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": ["LL5"]
+          },
+          "4": {
+            "FILE": "HUP188-short-ictal-block-4.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 163697,
+            "SeizureUEO": 163697,
+            "SeizureEnd": 159218,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": ["LL5"]
+          },
+          "5": {
+            "FILE": "HUP188-short-ictal-block-5.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 180627,
+            "SeizureUEO": 180627,
+            "SeizureEnd": 180641,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": ["LL5"]
+          },
+          "6": {
+            "FILE": "HUP188-short-ictal-block-6.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 182269,
+            "SeizureUEO": 182269,
+            "SeizureEnd": 182290,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": ["LF5"]
+          },
+          "7": {
+            "FILE": "HUP188-short-ictal-block-7.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 186002,
+            "SeizureUEO": 186002,
+            "SeizureEnd": 186040,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": ["LL5","LG9","LI3","LI4","LI5"]
+          },
+          "11": {
+            "FILE": "HUP188-short-ictal-block-11.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 224529,
+            "SeizureUEO": 224529,
+            "SeizureEnd": 224542,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": ["LI5","LG9"]
+          },
+          "12": {
+            "FILE": "HUP188-short-ictal-block-12.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 268043,
+            "SeizureUEO": 268043,
+            "SeizureEnd": 268210.5,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": ["LH7","LH8","LH9"]
+          },
+          "13": {
+            "FILE": "HUP188-short-ictal-block-13.mat",
+            "SeizureType": "CPS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 345441,
+            "SeizureUEO": 345441,
+            "SeizureEnd": 345452.50,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": ["LD7","LD8","LD9","LD10","LD11"]
+          }
+        },        
+        "Interictal":
+        {
+          "1":
+            { 
+            "FILE":"HUP191-interictal-block-1.mat",
+            "IIstart":340000,
+            "IIstop":343600
+            }
+         }
+      },
+      "RESECTION_IMAGE": "?",
+      "ELECTRODE_LABELS": "",
+      "MANUAL_RESECTED_ELECTRODES":[""],
+      "IGNORE_ELECTRODES": ["C3","C4","CZ","EKG1","EKG2","FZ","LA11","LA12","LF12","LOC","ROC"]
       },
     "HUP190": 
     {
@@ -1937,23 +2167,50 @@
       "Events": {
         "Ictal": {
           "1": {
-            "FILE": "HUP191-auditory-task-clip.mat",
-            "SeizureType": "CPS",
+            "FILE": "HUP191-short-ictal-block-1.mat",
+            "SeizureType": "FBTC",
             "EMU_Report_Event_Number": "?",
-            "SeizureEEC": 29094,
-            "SeizureUEO": 29094,
-            "SeizureEnd": 29568,
+            "SeizureEEC": 559118,
+            "SeizureUEO": 559118,
+            "SeizureEnd": 559212,
             "SeizurePhenotype": "A",
-            "SEIZURE_ONSET_ELECTRODES": [
-              ""
-            ]
+            "SEIZURE_ONSET_ELECTRODES": ["LA01","LA02","LA03","LB01","LB02","LB03","LB04","LC01","LC02","LC03"]
+          },
+          "2": {
+            "FILE": "HUP191-short-ictal-block-2.mat",
+            "SeizureType": "FBTC",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 564990,
+            "SeizureUEO": 564990,
+            "SeizureEnd": 565082,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": ["LA01","LA02","LA03","LB01","LB02","LB03","LB04","LC01","LC02","LC03"]
+          },
+          "3": {
+            "FILE": "HUP191-short-ictal-block-3.mat",
+            "SeizureType": "FIAS",
+            "EMU_Report_Event_Number": "?",
+            "SeizureEEC": 598895,
+            "SeizureUEO": 598895,
+            "SeizureEnd": 598968,
+            "SeizurePhenotype": "A",
+            "SEIZURE_ONSET_ELECTRODES": ["LA01","LA02","LA03","LB01","LB02","LB03","LB04","LB05","LC01","LC02","LC03","LC04"]
           }
-        }
+        },        
+        "Interictal":
+        {
+          "1":
+            { 
+            "FILE":"HUP191-interictal-block-1.mat",
+            "IIstart":340000,
+            "IIstop":343600
+            }
+         }
       },
       "RESECTION_IMAGE": "?",
       "ELECTRODE_LABELS": "",
-      "MANUAL_RESECTED_ELECTRODES":["LA1","LA2","LA3","LA4","LA5","LA6","LA7","LA8","LA9","LB1","LB2","LB3","LB4","LB5","LB6","LB7","LB8","LB9","LB10","LC1","LC2","LC3","LC4","LH3","LH4"],
-      "IGNORE_ELECTRODES": [""]
+      "MANUAL_RESECTED_ELECTRODES":["LA01","LA02","LA03","LA04","LA05","LA06","LA07","LA08","LA09","LB01","LB02","LB03","LB04","LB05","LB06","LB07","LB08","LB09","LB10","LC01","LC02","LC03","LC04","LH03","LH04"],
+      "IGNORE_ELECTRODES": ["C3","C4","CZ","EKG1","EKG2","FZ","ROC","LOC","RB02","RC09","RC11","RC12"]
     }
   }
 }

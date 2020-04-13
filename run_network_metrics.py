@@ -6,7 +6,6 @@ import time
 from util import *
 from util_connectivity import *
 from util_virtual_resection import *
-#from util_plot import *
 
 if __name__ == '__main__':
     # Get arguments
@@ -16,7 +15,7 @@ if __name__ == '__main__':
         print 'Please enter an appropriate PATIENT_ID.'
         raise
     try:
-        epoch_length = sys.argv[2] # seconds
+        epoch_length = sys.argv[2]  # seconds
     except IndexError:
         epoch_length = 1
     try:
@@ -33,7 +32,7 @@ if __name__ == '__main__':
     count_conn = 0
     for k,v in data["PATIENTS"][patient_id]['Events']['Ictal'].items():
         try:
-            if(v["STATUS"] == 'ALL_DROPOUT'):
+            if v["STATUS"] == 'ALL_DROPOUT':
                 continue
             else:
                 count_conn += 1
@@ -41,19 +40,16 @@ if __name__ == '__main__':
             count_conn += 1
 
     # Check if all connectivity adjacency matrices have been computed
-    if(len(glob.glob('%s/%s/*multiband*'%(os.path.expanduser(data['COMP_DIR']),patient_id))) != count_conn):
-        # Compute multi band connectivity and store adjacency matricies
+    if len(glob.glob('%s/%s/*multiband*'%(os.path.expanduser(data['COMP_DIR']),patient_id))) != count_conn:
+        # Compute multi band connectivity and store adjacency matrices
         compute_multiband_connectivity(patient_id, epoch_length)
 
-    # Check if all connectivity adjacency matrices have been computed
-    if(len(glob.glob('%s/%s/*sync*'%(os.path.expanduser(data['COMP_DIR']),patient_id))) != count_conn):
-        # Compute multi band connectivity and store adjacency matricies
+    # Check if synchronizability has been computed
+    if len(glob.glob('%s/%s/*sync*'%(os.path.expanduser(data['COMP_DIR']),patient_id))) != count_conn:
+        # Compute synchronizability
         vr_sync(patient_id, data=data)
 
-
-    if(len(glob.glob('%s/%s/*noderes*'%(os.path.expanduser(data['COMP_DIR']),patient_id))) != count_conn):
+    # Check if node-level virtual resection is complete
+    if len(glob.glob('%s/%s/*noderes*'%(os.path.expanduser(data['COMP_DIR']),patient_id))) != count_conn:
         # Compute node-level virtual resection
         nodal_virtual_resection(patient_id, data=data)
-
-
-    
